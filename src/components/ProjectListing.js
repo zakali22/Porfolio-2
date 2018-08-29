@@ -37,7 +37,7 @@ class ProjectListing extends Component {
 						</a>
 						</div>
 						<div className="col-lg-4 col-xs-6">
-						<a href="http://thespaceytech.com/">
+						<a href="#">
 							  <img className="card-img-top" src={Tour}/>
 						</a>
 						</div>

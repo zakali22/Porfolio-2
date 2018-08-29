@@ -152,6 +152,11 @@ body {
 	color: #007bff;
 }
 
+.footer .fa-github {
+	color: #000000;
+}
+
+
 @media only screen and (max-width: 991px) {
 
 }
