@@ -1,0 +1,29 @@
+.headline {
+  background: var(--white);
+  margin: 0 8rem;
+  border-radius: 6px;
+  padding: 5rem;
+  position: relative;
+  top: 87vh;
+  display: flex;
+  flex-direction: column;
+  .intro {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 100%;
+      h1 {
+        text-align: center;
+        flex: 0 1 30%;
+      }
+      p {
+        flex: 1;
+      }
+    }
+  }
+}

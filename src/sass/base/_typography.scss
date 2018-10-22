@@ -2,6 +2,7 @@
   --black: #000000;
   --white: #fff;
   --light-blue: #28669f;
+  --light-grey: #999;
 }
 
 html {
@@ -64,6 +65,27 @@ body {
       color: var(--light-blue);
       width: 65%;
       padding: 1.5rem 1rem;
+    }
+  }
+}
+
+.headline {
+  .intro {
+    h1 {
+      font-size: 3rem;
+      font-family: "Poppins", sans-serif;
+      border-right: 1px solid var(--light-grey);
+      span {
+        font-size: 8rem;
+        color: var(--yellow);
+        font-weight: 700;
+      }
+    }
+    p {
+      font-size: 3rem;
+      line-height: 4rem;
+      padding-left: 4rem;
+      color: var(--light-grey);
     }
   }
 }
