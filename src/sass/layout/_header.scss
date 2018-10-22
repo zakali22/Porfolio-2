@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7rem;
+
+  padding-top: 2rem;
+  &__navigation {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    h2 {
+      cursor: pointer;
+    }
+    &--nav {
+      display: flex;
+      justify-content: space-between;
+      flex: 0 1 30%;
+
+      &_item {
+        padding: 1rem;
+        cursor: pointer;
+      }
+    }
+  }
+}

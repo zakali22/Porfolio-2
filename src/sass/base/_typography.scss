@@ -1,0 +1,39 @@
+:root {
+  --black: #000000;
+  --white: #fff;
+  --light-blue: #28669f;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a:link,
+a:visited {
+  color: var(--white);
+  text-decoration: none;
+}
+
+body {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  color: var(--black);
+}
+
+.header {
+  &__navigation {
+    h2 {
+      background: var(--white);
+      padding: 1rem;
+      color: var(--light-blue);
+    }
+    &--nav {
+      &_item {
+        font-size: 1.6rem;
+        font-family: "Ubuntu", sans-serif;
+        letter-spacing: 0.4rem;
+        color: var(--white);
+      }
+    }
+  }
+}
