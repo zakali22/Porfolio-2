@@ -88,4 +88,16 @@ body {
       color: var(--light-grey);
     }
   }
+  .projects {
+    &__image {
+      &--desc {
+        font-size: 2rem;
+        color: black;
+        text-transform: uppercase;
+        letter-spacing: 2rem;
+        font-weight: 400;
+        font-family: "Roboto Mono", monospace;
+      }
+    }
+  }
 }
