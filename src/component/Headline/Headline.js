@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Intro from "./Intro";
 import ProjectDisplay from "./ProjectDisplay";
 import Slide from "react-reveal/Slide";
+import { Element } from "react-scroll";
 
 class Headline extends Component {
   state = {
@@ -29,9 +30,13 @@ class Headline extends Component {
     return (
       <div className="headline">
         <Slide onReveal={() => this.projectCount()} up cascade>
-          <Intro displayStart={this.state.displayStart} />
+          <Element name="about">
+            <Intro displayStart={this.state.displayStart} />
+          </Element>
         </Slide>
-        <ProjectDisplay />
+        <Element name="projects">
+          <ProjectDisplay />
+        </Element>
       </div>
     );
   }

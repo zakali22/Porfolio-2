@@ -20,6 +20,12 @@
       &_item {
         padding: 1rem;
         cursor: pointer;
+        position: relative;
+        top: 0;
+        transition: all 0.3s ease-in;
+        &:hover {
+          top: 0.5rem;
+        }
       }
     }
   }
