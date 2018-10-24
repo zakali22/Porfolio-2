@@ -13,7 +13,16 @@
     align-items: center;
   }
   &__contacts {
+    font-size: 1.6rem;
+    h3 {
+      &:not(:last-child) {
+        margin-bottom: 4rem;
+      }
+    }
     i {
+      &:last-child {
+        color: var(--light-orange);
+      }
       font-size: 2rem;
       margin-right: 2rem;
     }
@@ -32,7 +41,7 @@
       }
     }
     i {
-      font-size: 3rem;
+      font-size: 3.5rem;
     }
   }
 }

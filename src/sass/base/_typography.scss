@@ -76,9 +76,10 @@ body {
       font-size: 3rem;
       font-family: "Poppins", sans-serif;
       border-right: 1px solid var(--light-grey);
+      color: var(--light-grey);
       span {
         font-size: 8rem;
-        color: var(--yellow);
+        color: coral;
         font-weight: 700;
       }
     }
