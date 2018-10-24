@@ -1,0 +1,38 @@
+.footer {
+  position: absolute;
+  top: 3492px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem 0;
+  .container {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  &__contacts {
+    i {
+      font-size: 2rem;
+      margin-right: 2rem;
+    }
+  }
+  &__social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0 1 20%;
+    h3 {
+      &:nth-child(1) {
+        color: var(--linkedin-color);
+      }
+      &:nth-child(2) {
+        color: black;
+      }
+    }
+    i {
+      font-size: 3rem;
+    }
+  }
+}

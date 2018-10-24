@@ -28,10 +28,10 @@ class Headline extends Component {
   render() {
     return (
       <div className="headline">
-        <Slide onReveal={() => this.projectCount()} up>
+        <Slide onReveal={() => this.projectCount()} up cascade>
           <Intro displayStart={this.state.displayStart} />
-          <ProjectDisplay />
         </Slide>
+        <ProjectDisplay />
       </div>
     );
   }

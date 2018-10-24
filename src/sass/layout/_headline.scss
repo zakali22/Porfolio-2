@@ -5,6 +5,7 @@
   top: 87vh;
   display: flex;
   flex-direction: column;
+  height: 100%;
   .intro {
     margin: 15rem 0;
     flex: 1;
@@ -57,7 +58,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        transition: opacity 0.4s ease-in;
+        transition: opacity 0.3s ease-in;
       }
       &:hover .projects__image--desc {
         opacity: 1;

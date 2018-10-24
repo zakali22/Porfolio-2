@@ -9,6 +9,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 2px solid red;
   .container {
+    width: 80%;
+    border: 1px solid white;
   }
 }
