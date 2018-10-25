@@ -4,10 +4,27 @@
   --light-blue: #28669f;
   --light-grey: #999;
   --linkedin-color: #0274b3;
+  --light-orange: #ff7f50;
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 62.5%; //10px
+  @media only screen and (max-width: 78.13em) {
+    //1250px
+    font-size: 56.25%; //9px
+  }
+  @media only screen and (max-width: 59.38em) {
+    //950px
+    font-size: 50%; //8px
+  }
+  @media only screen and (max-width: 46.88em) {
+    //750px
+    font-size: 43.75%; //7px
+  }
+  @media only screen and (max-width: 34.38em) {
+    //550px
+    font-size: 37.5%;
+  }
 }
 
 a:link,
@@ -52,6 +69,9 @@ body {
       font-weight: 400;
       color: var(--white);
       line-height: 1.4;
+      @media only screen and (max-width: 46.88em) {
+        font-size: 5rem;
+      }
       span {
         background: var(--white);
         color: var(--light-blue);
@@ -65,7 +85,11 @@ body {
       background: var(--white);
       color: var(--light-blue);
       width: 70%;
+      line-height: 3rem;
       padding: 1.5rem 1rem;
+      @media only screen and (max-width: 59.38em) {
+        line-height: 3rem;
+      }
     }
   }
 }
@@ -81,6 +105,9 @@ body {
         font-size: 8rem;
         color: coral;
         font-weight: 700;
+      }
+      @media only screen and (max-width: 46.88em) {
+        border: none;
       }
     }
     p {
@@ -99,6 +126,55 @@ body {
         letter-spacing: 2rem;
         font-weight: 400;
         font-family: "Ubuntu", sans-serif;
+      }
+    }
+  }
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem 0;
+  .container {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    @media only screen and (max-width: 46.88em) {
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+  &__contacts {
+    font-size: 1.6rem;
+    @media only screen and (max-width: 46.88em) {
+      font-size: 2.5rem;
+    }
+    i {
+      &:last-child {
+        color: var(--light-orange);
+      }
+      font-size: 2rem;
+      @media only screen and (max-width: 46.88em) {
+        font-size: 2.5rem;
+      }
+    }
+  }
+  &__social {
+    h3 {
+      &:nth-child(1) {
+        color: var(--linkedin-color);
+      }
+      &:nth-child(2) {
+        color: black;
+      }
+    }
+    i {
+      font-size: 3.5rem;
+      @media only screen and (max-width: 46.88em) {
+        font-size: 4rem;
       }
     }
   }

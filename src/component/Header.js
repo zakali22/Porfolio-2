@@ -8,7 +8,7 @@ class Header extends Component {
       duration: 1500,
       delay: 100,
       smooth: true,
-      offset: 5 // Scrolls to element + 50 pixels down the page
+      offset: 5
     });
   };
   render() {
