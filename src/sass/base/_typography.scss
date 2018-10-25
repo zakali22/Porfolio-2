@@ -163,7 +163,7 @@ body {
     }
   }
   &__social {
-    h3 {
+    a {
       &:nth-child(1) {
         color: var(--linkedin-color);
       }

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { scroller } from "react-scroll";
+import CV from "../cv.pdf";
 
 class Header extends Component {
   scrollTo = element => {
@@ -29,7 +30,9 @@ class Header extends Component {
             >
               portfolio
             </p>
-            <p className="header__navigation--nav_item">resume</p>
+            <a href={CV} download>
+              <p className="header__navigation--nav_item">resume</p>
+            </a>
           </nav>
         </div>
       </div>
