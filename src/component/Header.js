@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { scroller } from "react-scroll";
-import CV from "../cv.pdf";
+import CV from "../Resume.pdf";
 
 class Header extends Component {
   scrollTo = element => {
